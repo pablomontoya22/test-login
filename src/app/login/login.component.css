@@ -1,0 +1,9 @@
+.card {
+    background-color: #3c3c3c;
+    color: white;
+    border-radius: 10px;
+}
+
+.form-control {
+    border-color: black;
+}

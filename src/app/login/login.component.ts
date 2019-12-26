@@ -10,7 +10,6 @@ import { AuthService } from '../services/auth.service';
 })
 export class LoginComponent implements OnInit {
 
-  logoUrl = 'https://dashboard.opal.us/opal-cyweb/resources/img/logos/Horizontal-Wordmark-UNC.png'
   form: FormGroup
 
   constructor(private formBuilder: FormBuilder, private router: Router, private authService: AuthService) {
